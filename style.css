@@ -5,8 +5,9 @@ body {
     background: #10101B;
     height: 100vh;
 }
-#display-pin{
+#display-pin , #typed-numbers{
     text-align: center;
+    
 }
 .container {
     margin-top: 30px;
@@ -98,6 +99,7 @@ color: #E0B612;
     margin-top: 20px;
     border-radius: 15px;
     padding: 5px 20px;
+    display: none;
 }
 .notify-section{
     width: 35%;
