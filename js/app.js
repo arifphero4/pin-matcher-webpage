@@ -4,7 +4,7 @@ function getPin() {
   if (pinString.length == 4) {
     return pin;
   } else {
-    console.log("got 3 digit pin:", pin);
+    // console.log("got 3 digit pin:", pin);
     return getPin();
   }
 }
